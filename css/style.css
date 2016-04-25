@@ -28,8 +28,8 @@
 #news-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #news-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #news-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #000;
 }
 
 #news-bootstrap-menu.navbar-default .navbar-toggle {
@@ -50,16 +50,7 @@
     background-color: #ffffff;
 }
 
-.btn-circle {
-  background-image:url("../img/magnif.png");
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  padding: 6px 0;
-  font-size: 12px;
-  line-height: 1.42;
-  border-radius: 15px;
-}
+
 
 .thumbnail > img,
 .thumbnail a > img,
@@ -150,7 +141,7 @@
 }
 
 .butn:hover{
-	box-shadow: 9px 6px 91px 25px #ffffff);
+	box-shadow: 9px 6px  #ffffff);
 }
 
 .pic {
@@ -165,7 +156,7 @@
 }
 
 .title {
-	margin-top:50px;
+	margin-top:70px;
 }
 
 .space {
@@ -174,14 +165,14 @@
 
 .foot img {
 	border:1px solid #ffffff;
-	border-radius:100%;
-	width:100px;
+
+	width:50px;
 	transition:0.5s linear;
-	margin:20px auto;
+	margin:10px auto;
 }
 
 .foot img:hover {
-	box-shadow: 9px 6px 91px 25px rgba(108,104,112,1);
+	box-shadow: 9px 6px rgba(108,104,112,1);
 }
 
 .foot hr {
