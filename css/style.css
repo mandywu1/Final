@@ -22,7 +22,7 @@
 #news-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #news-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
     color: #fff;
-    background-color: #000;
+    background-color: #fff;
 }
 
 #news-bootstrap-menu.navbar-default .navbar-nav>.active>a,
@@ -33,12 +33,12 @@
 }
 
 #news-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #000000;
+    border-color: #fff;
 }
 
 #news-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #news-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #000000;
+    background-color: #fff;
 }
 
 #news-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
@@ -47,7 +47,7 @@
 
 #news-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #news-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #ffffff;
+    background-color: #000
 }
 
 
@@ -89,6 +89,10 @@
   margin: 0;
   padding: 0 25px 25px 0;
   text-align: right;
+}
+
+#snow_reports h2 {
+  text-align: center;
 }
 
 .carousel-control.left,
@@ -135,7 +139,7 @@
 	background-color:#FFF;
 	padding:10px;
 	border-radius:15px;
-	color:#ffffff ;
+	color:#000 ;
 	transition:0.5s linear;
 	width:200px;
 }
@@ -147,7 +151,7 @@
 .pic {
 	width:450px;
 	height:450px;
-	border:1px solid #FFF;
+	border:1px solid #000;
 	border-radius:100%;
 	margin-top:20px;
 	margin-bottom:20px;
