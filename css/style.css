@@ -7,10 +7,10 @@
 }
 
 #news-bootstrap-menu.navbar-default {
-	font-family: 'Poiret One', cursive;
+	font-family: 'Lora', cursive;
     background-color: #000 ;
-    border-bottom-width: 3px;
-    border-bottom-color:#fff;
+    border-bottom-width: 50px;
+    border-bottom-color:#000;
     margin-bottom:0px;
 }
 #news-bootstrap-menu.navbar-default .navbar-nav>li>a {
@@ -21,7 +21,7 @@
 
 #news-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #news-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: #fff;
+    color: #000;
     background-color: #fff;
 }
 
@@ -38,7 +38,7 @@
 
 #news-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #news-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #fff;
+    background-color: #000;
 }
 
 #news-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
@@ -68,14 +68,14 @@
 }
 
 .carousel-caption {
-  background-color: #ffffff;
+  background-color: #000;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 10;
   padding: 0 0 10px 25px;
-  color: #000000;
+  color: #fff;
   text-align: left;
 }
 
@@ -117,35 +117,35 @@
 }
 
 .inn {
-	background-color:#FFF;
-	color:#000;
+	background-color:#000;
+	color:#fff;
 	margin:0;
 	padding:10px 20px;
 	display:block;
 }
 
 .topic {
-	background-color:#ffffff;
+	background-color:#000;
 }
 
 .text-content {
-	color:#000000;
+	color:#fff;
 	margin:20px 20px;
 }
 
 .butn {
 	text-align:center;
 	text-decoration:none;
-	background-color:#FFF;
+	background-color:#000;
 	padding:10px;
 	border-radius:15px;
-	color:#000 ;
+	color:#fff ;
 	transition:0.5s linear;
 	width:200px;
 }
 
 .butn:hover{
-	box-shadow: 9px 6px  #ffffff);
+	box-shadow: 9px 6px  rgba(108,104,112,1));
 }
 
 .pic {
@@ -154,7 +154,7 @@
 	border:1px solid #000;
 	border-radius:100%;
 	margin-top:20px;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	cursor:pointer;
 	transition:0.5s linear;
 }
